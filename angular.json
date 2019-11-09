@@ -118,8 +118,13 @@
               "devServerTarget": "sofre41119v3:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "sofre41119v3"
 }
